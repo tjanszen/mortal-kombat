@@ -1,3 +1,30 @@
-h1{
-  color :red;
+
+body{
+  background-image: url('http://globe-views.com/dcim/dreams/roses/roses-04.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+
+  .weapon, .fighter{
+    background-color:white;
+    display: inline-block;
+
+    &> div:first-child{
+      height:100px;
+      width: 100px;
+      border: 1px solid red;
+      background-size: cover;
+      margin:10px;
+    }
+
+    &> div.nth-child(2){
+      padding:10px;
+      font-family:monospace;
+    }
+  }
+
+  .choose{
+    border: 1px solid #ffb6c1
+    background-color:#ffb6c1
+  }
